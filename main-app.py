@@ -300,8 +300,4 @@ with st.spinner("正在加载数据和训练模型..."):
                     st.markdown(" ".join([f"#{word}" for word in keywords[:10]]))
 else:
 st.error("数据加载或模型训练失败，请检查数据文件和依赖库。")
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
