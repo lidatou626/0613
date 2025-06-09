@@ -300,4 +300,3 @@ with st.spinner("正在加载数据和训练模型..."):
                     st.markdown(" ".join([f"#{word}" for word in keywords[:10]]))
 else:
 st.error("数据加载或模型训练失败，请检查数据文件和依赖库。")
-
